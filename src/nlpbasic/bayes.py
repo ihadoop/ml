@@ -4,7 +4,6 @@ def preprocess(s):
     s = s.lower()
     return {word: True for word in s.split()}
 
-
 sentences = ["This book is very informative, a must-read.",
              "The book was poorly written, I don't recommend it.",
              "It's one of the most interesting books I've read.",
