@@ -5,4 +5,7 @@ tf.constant(1)
 
 tf.constant(2,dtype=tf.float32)
 
-tf.constant([True,False])
+a = tf.constant([True,False])
+a = a.numpy()
+a.ndim
+tf.is_tensor(a)
