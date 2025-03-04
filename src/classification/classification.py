@@ -35,6 +35,8 @@ def train_epoch(epoch):
         if step%50==0:
             print(epoch,step,'loss:',loss.numpy())
 
+
+
 def train():
     for epoch in range(30):
         train_epoch(epoch)
