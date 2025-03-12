@@ -9,3 +9,5 @@ a = tf.constant([True,False])
 a = a.numpy()
 a.ndim
 tf.is_tensor(a)
+
+tf.convert_to_tensor(a)
